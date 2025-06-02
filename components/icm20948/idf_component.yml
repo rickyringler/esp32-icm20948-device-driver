@@ -1,0 +1,22 @@
+description: ICM-20948 driver with support for SPI, I2C and InvenSense Digital Motion Processor
+url: https://github.com/cybergear-robotics/icm20948
+issues: https://github.com/cybergear-robotics/icm20948/issues
+repository: git@github.com:cybergear-robotics/icm20948.git
+license: "MIT"
+tags:
+    - icm20948
+    - imu
+    - spi
+    - i2c
+maintainers:
+  - "Johannes Fischer"
+
+dependencies:
+  idf: ">=5.0"
+
+files:
+  exclude:
+    - "datasheet/"
+    - "datasheet/**/*"
+    - "docs/"
+    - "docs/**/*"
